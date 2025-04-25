@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Demo",
-    "slug": "Demo",
+    "slug": "demo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -48,8 +48,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "eabe7568-6396-4301-a60a-6334145945a9"
+        "projectId": "24cb6bf5-2a02-4545-93ad-7bfcc2751905"
       }
-    }
+    },
+    "owner": "milan_c_i"
   }
 }
