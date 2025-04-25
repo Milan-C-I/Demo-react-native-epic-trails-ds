@@ -25,6 +25,7 @@ export default function Index() {
       <View className="w-[80%] m-12">
         <NavTabs tabs={["Your Trips", "Archived"]} />
       </View>
+      <RectButton label="click" onPress={() => router.push('/design4')}/>
       <View className="w-[80%] m-4 p-4 bg-gray-100">
         <View style={{ height: 180, backgroundColor: "#abdbe3" }}>
           <Image
@@ -81,7 +82,6 @@ export default function Index() {
           <Text className="my-1 mx-2 text-gray-600">Preetham, Vignesh & 1 other</Text>
         </View>
       </View>
-      <RectButton label="click" onPress={() => router.push('/design4')}/>
       <BottomNav items={items} />
     </View>
   );
