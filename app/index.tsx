@@ -3,6 +3,7 @@ import { SocialLogin, TypeDoc } from "reactnativeepictrailsds";
 import { NormalInput } from "reactnativeepictrailsds";
 import EpicTrailsLogo from "@/assets/images/Epictrails-logo.svg";
 import { useRouter } from "expo-router";
+
 export default function Index() {
   const router = useRouter();
   return (
