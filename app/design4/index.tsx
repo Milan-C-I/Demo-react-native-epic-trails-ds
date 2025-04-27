@@ -1,9 +1,9 @@
 import { View } from "react-native";
-import { BottomNav } from "reactnativeepictrailsds/src";
-import { SocialMediaStack } from "reactnativeepictrailsds/src";
-import StoryProgressBar from "reactnativeepictrailsds/src/socialmediastack/storyprogressbar";
-import SocialMediaEngagement from "reactnativeepictrailsds/src/socialmediastack/socialmediaengagement";
-import SocialMediaContainer from "reactnativeepictrailsds/src/socialmediastack/socialmediacontainer";
+import { BottomNav } from "reactnativeepictrailsds";
+import { SocialMediaStack } from "reactnativeepictrailsds";
+import { StoryProgressBar } from "reactnativeepictrailsds";
+import { SocialMediaEngagement } from "reactnativeepictrailsds";
+import { SocialMediaContainer } from "reactnativeepictrailsds";
 import { useState } from "react";
 import { useRouter } from "expo-router";
 
