@@ -19,7 +19,7 @@ export default function Index() {
   ];
 
   return (
-    <View className="max-w-md" style={{margin:"auto", width: '100%', height: '100%', alignItems: 'center', justifyContent: 'center', backgroundColor: 'white'}}>
+    <View className="max-w-md text-black" style={{margin:"auto", width: '100%', height: '100%', alignItems: 'center', justifyContent: 'center', backgroundColor: 'white'}}>
       <View className="w-[80%] m-12">
         <NavTabs tabs={["Your Trips", "Archived"]} />
       </View>

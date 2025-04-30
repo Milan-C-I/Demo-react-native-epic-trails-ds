@@ -7,7 +7,7 @@ import { useRouter } from "expo-router";
 export default function Index() {
   const router = useRouter();
   return (
-    <View className="max-w-md" style={{margin:"auto", width: '100%', height: '100%', alignItems: 'center', justifyContent: 'center', backgroundColor: 'white'}}>
+    <View className="max-w-md text-black" style={{margin:"auto", width: '100%', height: '100%', alignItems: 'center', justifyContent: 'center', backgroundColor: 'white'}}>
       <EpicTrailsLogo width={250} height={120} />
       <Text className="text-xl font-bold">Login</Text>
       <View className="w-[80%] m-4">
@@ -15,7 +15,7 @@ export default function Index() {
       <NormalInput placeholder="Email" Size="full"/>
       <Text className="my-2 text-gray-600">user@email.com</Text>
       <Text className="my-2">Password</Text>
-      <NormalInput Size="full"/>
+      <NormalInput Size="full" secureTextEntry/>
       </View>
       <TypeDoc  buttonLabel="Login" label="I agree to the terms and conditions." size="large"
         onClick={() => router.push('/design2')}
