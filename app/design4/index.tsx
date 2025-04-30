@@ -72,6 +72,7 @@ export default function Index() {
           contentItems={contentItems}
           duration={5000}
           onActiveIndexChange={(index) => setActiveIndex(index)}
+          index = {activeIndex}
         />
       </SocialMediaStack>
     </View>
