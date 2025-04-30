@@ -60,7 +60,7 @@ export default function Index() {
       },
     ];
   return (
-    <View style={{width: '100%', height: '100%', alignItems: 'center', justifyContent: 'center', backgroundColor: 'red'}}>
+    <View className="max-w-md" style={{margin:"auto", width: '100%', height: '100%', alignItems: 'center', justifyContent: 'center', backgroundColor: 'white'}}>
       <SocialMediaStack>
       <StoryProgressBar totalStories={contentItems.length} activeStoryIndex={activeIndex}/>
         <SocialMediaEngagement icons={icons}/>

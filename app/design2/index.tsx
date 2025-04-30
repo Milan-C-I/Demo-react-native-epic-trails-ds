@@ -13,7 +13,7 @@ export default function Index() {
         {icon: 'person',label: 'Me',}
       ]
       return (
-        <View style={{width: '100%', height: '100%', alignItems: 'center', justifyContent: 'center', backgroundColor: 'white'}}>
+        <View className="max-w-md" style={{margin:"auto", width: '100%', height: '100%', alignItems: 'center', justifyContent: 'center', backgroundColor: 'white'}}>
           <EmptyState message="Sorry, we couldn't find that connection."
               action="primary"
               description="Try changing up your search a bit. We'll try harder next time."
