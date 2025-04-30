@@ -3,7 +3,7 @@ import { Image } from "react-native";
 import { BottomNav, EmptyState } from "reactnativeepictrailsds";
 import { useRouter } from "expo-router";
 export default function Index() {
-    const router = useRouter();
+  const router = useRouter();
 
     const items = [
         {icon: 'home',label: 'Home',},

@@ -26,7 +26,7 @@
     "web": {
       "bundler": "metro",
       "output": "web-build",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/Epictrails-logo.png"
     },
     "plugins": [
       "expo-router",

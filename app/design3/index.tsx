@@ -6,6 +6,7 @@ import {
   NavTabs,
   RectButton,
 } from "reactnativeepictrailsds";
+
 export default function Index() {
   const router = useRouter();
 
